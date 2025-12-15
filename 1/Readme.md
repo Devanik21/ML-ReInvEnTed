@@ -108,9 +108,8 @@ SVM:            96.67%
 HRF (ours):     86.67%
 ```
 
-(![Decision Boundaries](<img width="1989" height="490" alt="Results" src="https://github.com/user-attachments/assets/b21dbaa7-fc9d-480b-8406-6fc5048835bd" />
-)
-)
+![Decision Boundaries](https://github.com/user-attachments/assets/feeed701-a2b3-4433-a571-a24b3c23bd46)
+
 
 ### Analysis
 
