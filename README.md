@@ -42,6 +42,25 @@ I developed **Harmonic Resonance Fields (HRF)**, a novel physics-informed machin
 <img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/26b4e1e7-aae5-4f0b-9e0c-7bf2567ef3d8" />
 
 ---
+
+### Phase II: Neural Perturbation Stress Test (Jitter)
+
+**Objective**: Assess HRF's robustness to temporal jitter in synthetic EEG-like signals by transforming time-domain signals into the frequency domain using Fast Fourier Transform (FFT).
+
+**Summary of Results (Phase II)**:
+
+| Model Name                     | Accuracy   |
+|:-------------------------------|:-----------|
+| Random Forest                  | 76.40%     |
+| Gradient Boosting              | 71.20%     |
+| SVM (RBF)                      | 95.20%     |
+| KNN (Raw)                      | 92.80%     |
+| HRF v12.5 (Spectral)           | 96.40%     |
+| XGBoost                        | 76.80%     |
+
+**Analysis**: Phase II highlighted HRF's exceptional robustness to temporal jitter. By employing a spectral transformation (FFT) to achieve shift-invariance, HRF v12.5 (Spectral) maintained a high accuracy of 96.40%. This performance was comparable to SVM (RBF) at 95.20% and notably superior to traditional ensemble methods like Random Forest (76.40%), Gradient Boosting (71.20%), and XGBoost (76.80%), which struggled significantly in the presence of temporal variations. KNN (Raw) also performed well at 92.80%, indicating some inherent robustness to jitter in its distance metric. This phase demonstrates the critical advantage of HRF's physics-informed approach in handling real-world signal challenges like temporal misalignment.
+
+---
 <img width="1089" height="590" alt="download" src="https://github.com/user-attachments/assets/855ecf32-467e-4c59-8c07-4223ffd7aad6" />
 
 ---
