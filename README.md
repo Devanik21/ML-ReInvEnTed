@@ -33,13 +33,13 @@ I developed **Harmonic Resonance Fields (HRF)**, a novel physics-informed machin
 | Random Forest | 93.09% | -5.37% |
 | XGBoost | 92.99% | -5.47% |
 
-[**Performance Visualization - Benchmark Results**]
+**Performance Visualization - Benchmark Results**
 
 <img width="989" height="589" alt="download" src="https://github.com/user-attachments/assets/e6300d73-2b32-45d6-8491-b74d0223f5b7" />
 
 ---
 
-<img width="790" height="590" alt="download" src="https://github.com/user-attachments/assets/99c32366-9b83-40ed-b9a7-4b48353c8042" />
+<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/26b4e1e7-aae5-4f0b-9e0c-7bf2567ef3d8" />
 
 ---
 
@@ -62,13 +62,19 @@ I generated synthetic EEG data with increasing phase jitter (0.0 to 3.0 standard
 
 [**Phase Jitter Robustness**]
 
-[**Space for screenshot 2: Line graph showing HRF maintaining accuracy while RF degrades**]
+**Line graph showing HRF maintaining accuracy while RF degrades**
+<img width="867" height="553" alt="download" src="https://github.com/user-attachments/assets/c09bea3a-ac31-4071-b410-31ff0acd8275" />
 
+---
+
+<img width="817" height="724" alt="download" src="https://github.com/user-attachments/assets/5d50c3c3-986d-4c12-93a5-ab8385014019" />
+
+---
 **Scientific Explanation:** HRF measures the *frequency energy* of signals rather than temporal feature positions, making it inherently invariant to phase shifts—a fundamental limitation of decision tree-based models.
 
 ---
 
-## 📊 Algorithm Evolution: 6 Hours, 14 Versions, 98.46% Accuracy
+## 📊 Algorithm Evolution:  14 Versions, 98.46% Accuracy
 
 The development of HRF followed rigorous scientific methodology through iterative hypothesis testing:
 
@@ -85,7 +91,16 @@ The development of HRF followed rigorous scientific methodology through iterativ
 
 [**Algorithm Evolution Timeline**]
 
-[**Space for screenshot 3: Decision boundary evolution across versions**]
+**Decision boundary evolution**
+
+<img width="1989" height="489" alt="download" src="https://github.com/user-attachments/assets/e2fcd24a-3a68-4a1c-b277-e12610350011" />
+
+---
+<img width="1989" height="489" alt="download" src="https://github.com/user-attachments/assets/cd528d63-3606-42ac-81a1-d00cdfbe58d6" />
+
+---
+
+<img width="2389" height="590" alt="download" src="https://github.com/user-attachments/assets/814841d7-6fa0-4918-94fc-3b49f5cae5fa" />
 
 ---
 
@@ -104,7 +119,18 @@ The model achieved near-perfect classification with minimal false positives and 
 
 [**Medical Diagnostic Precision**]
 
-[**Space for screenshot 4: Confusion matrix heatmap**]
+**Confusion matrix heatmap**
+
+# Final Version
+
+<img width="790" height="590" alt="download" src="https://github.com/user-attachments/assets/08a99191-68f6-42ae-8222-a63a14588383" />
+
+# HRF V12.0 
+
+<img width="790" height="588" alt="download" src="https://github.com/user-attachments/assets/0a96606f-1ebf-4dde-afa9-2e574d4c90cb" />
+
+
+---
 
 **Clinical Significance:**
 - **Sensitivity:** 98.5% (correctly identifies closed-eye state)
@@ -150,9 +176,6 @@ I validated HRF across diverse datasets to prove generalization:
 | Synthetic EEG (Neural) | 85.56% | RF: 72.22% | **+13.34%** |
 | Real EEG (Medical) | **98.46%** | ET: 94.49% | **+3.97%** |
 
-[**Cross-Domain Performance**]
-
-[**Space for screenshot 5: Comparative bar chart across datasets**]
 
 ---
 
@@ -189,9 +212,40 @@ I validated HRF across diverse datasets to prove generalization:
 - **Benchmark Code:** Reproducible experiments on OpenML 1471
 - **Tutorial Notebooks:** Step-by-step implementation guides
 
-[**Final Results Visualization**]
+# Evaluating Test Accuracy: A Comparison Using the OpenML EEG Global Dataset
 
-[**Space for screenshot 6: Final accuracy comparison with annotations**]
+<img width="989" height="490" alt="download" src="https://github.com/user-attachments/assets/a1b51039-ef43-4509-a371-053df007a7d2" />
+
+---
+
+<img width="989" height="490" alt="download" src="https://github.com/user-attachments/assets/bcdedaea-c7a7-4bb7-b9c3-900218a480bd" />
+
+---
+
+<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/7c48b7da-d7f7-4b91-b36d-e41296968aea" />
+
+---
+<img width="992" height="490" alt="download" src="https://github.com/user-attachments/assets/b7bf119f-cd17-457b-ad61-fc291a859865" />
+
+
+---
+<img width="989" height="490" alt="download" src="https://github.com/user-attachments/assets/bb103652-e1d7-451a-ab09-5c814524a7d0" />
+
+---
+
+<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/d7fb3869-6e18-4dcb-92d1-75ace9cde0c4" />
+
+---
+
+<img width="1018" height="573" alt="download" src="https://github.com/user-attachments/assets/2a066ab5-73a2-4fee-955e-d896f33d0bf0" />
+
+---
+
+<img width="989" height="590" alt="download" src="https://github.com/user-attachments/assets/ea4003d1-7a7c-4baf-bfa7-33629803239c" />
+
+---
+
+<img width="989" height="589" alt="download" src="https://github.com/user-attachments/assets/1e454e3a-956c-4641-a4fd-a34f9530f3d2" />
 
 ---
 
