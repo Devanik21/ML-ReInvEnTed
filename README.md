@@ -60,7 +60,7 @@ I generated synthetic EEG data with increasing phase jitter (0.0 to 3.0 standard
 | 2.0 (High) | 100.00% | 92.50% | **+7.50%** |
 | 3.0 (Extreme) | 100.00% | 83.33% | **+16.67%** |
 
-[**Phase Jitter Robustness**]
+**Phase Jitter Robustness**
 
 **Line graph showing HRF maintaining accuracy while RF degrades**
 <img width="867" height="553" alt="download" src="https://github.com/user-attachments/assets/c09bea3a-ac31-4071-b410-31ff0acd8275" />
