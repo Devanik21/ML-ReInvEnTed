@@ -42,6 +42,14 @@ I developed **Harmonic Resonance Fields (HRF)**, a novel physics-informed machin
 <img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/26b4e1e7-aae5-4f0b-9e0c-7bf2567ef3d8" />
 
 ---
+<img width="1089" height="590" alt="download" src="https://github.com/user-attachments/assets/855ecf32-467e-4c59-8c07-4223ffd7aad6" />
+
+---
+<img width="989" height="590" alt="download" src="https://github.com/user-attachments/assets/024fe837-c788-4413-b5e2-8ac05f82fc41" />
+
+---
+
+
 
 ## 🔬 Core Innovation: Phase-Invariant Classification
 
