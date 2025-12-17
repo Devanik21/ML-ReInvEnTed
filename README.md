@@ -219,7 +219,7 @@ I validated HRF across diverse datasets to prove generalization:
 
 ## 📚 Documentation & Resources
 
-- **Main Repository:** [Harmonic Resonance Fields](https://github.com/Devanik21/harmonic-resonance-fields)
+- **Main Repository:** [Harmonic Resonance Fields](https://github.com/Devanik21/Harmonic-Resonance-Forest/tree/main)
 - **Research Paper:** Technical documentation with full mathematical proofs
 - **Benchmark Code:** Reproducible experiments on OpenML 1471
 - **Tutorial Notebooks:** Step-by-step implementation guides
