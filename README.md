@@ -259,6 +259,11 @@ The model achieved near-perfect classification with minimal false positives and 
 
 <img width="809" height="675" alt="download" src="https://github.com/user-attachments/assets/b2b9a9aa-b778-4014-86bc-82291fe54977" />
 
+---
+
+<img width="847" height="785" alt="download" src="https://github.com/user-attachments/assets/2a2567b1-6225-41d5-8c84-2948d2766b35" />
+
+
 
 # HRF V14.0
 
@@ -271,10 +276,23 @@ The model achieved near-perfect classification with minimal false positives and 
 
 ---
 
-**Clinical Significance:**
-- **Sensitivity:** 98.5% (correctly identifies closed-eye state)
-- **Specificity:** 98.4% (correctly identifies open-eye state)
-- **False Alarm Rate:** 1.6% (industry-competitive for brain monitoring)
+###  Medical Validation: Clinical Precision (v15.0)
+
+The v15.0 Ultimate exhibits near-perfect class separation, as evidenced by the high-density diagonal in the resonance-based confusion matrix.
+
+**Confusion Matrix Analysis: HRF v15.0 Ultimate**
+
+---
+
+### 🏥 Clinical Significance
+Based on the **98.84%** peak accuracy and the v15.0 confusion matrix analysis:
+
+* **Sensitivity (Recall): 98.07%** (High-fidelity detection of the signal-active state).
+* **Specificity: 98.91%** (Exceptional rejection of false positives/noise).
+* **False Alarm Rate: 1.09%** (Significant reduction from v14.0's 1.6%, setting a new benchmark for brain monitoring).
+* **Stability:** **±0.18% K-Fold Variance** ensures these clinical metrics remain consistent across different patient datasets.
+
+---
 
 ---
 
