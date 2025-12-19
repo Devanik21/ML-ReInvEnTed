@@ -56,15 +56,7 @@ Unlike traditional models, HRF v15.0 was validated using **Stratified K-Fold**, 
 
 ---
 
-**Performance Visualization - Benchmark Results**
 
-<img width="989" height="589" alt="download" src="https://github.com/user-attachments/assets/e6300d73-2b32-45d6-8491-b74d0223f5b7" />
-
----
-
-<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/26b4e1e7-aae5-4f0b-9e0c-7bf2567ef3d8" />
-
----
 
 
 
@@ -106,6 +98,10 @@ I generated synthetic EEG data with increasing phase jitter (0.0 to 3.0 standard
 **Analysis**: Phase II highlighted HRF's exceptional robustness to temporal jitter. By employing a spectral transformation (FFT) to achieve shift-invariance, HRF v12.5 (Spectral) maintained a high accuracy of 96.40%. This performance was comparable to SVM (RBF) at 95.20% and notably superior to traditional ensemble methods like Random Forest (76.40%), Gradient Boosting (71.20%), and XGBoost (76.80%), which struggled significantly in the presence of temporal variations. KNN (Raw) also performed well at 92.80%, indicating some inherent robustness to jitter in its distance metric. This phase demonstrates the critical advantage of HRF's physics-informed approach in handling real-world signal challenges like temporal misalignment.
 
 <img width="1089" height="590" alt="download" src="https://github.com/user-attachments/assets/855ecf32-467e-4c59-8c07-4223ffd7aad6" />
+
+---
+
+<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/26b4e1e7-aae5-4f0b-9e0c-7bf2567ef3d8" />
 
 ---
 
