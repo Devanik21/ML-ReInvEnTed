@@ -1,6 +1,6 @@
 # Devanik
 
-**ECE Student | Physics-Informed AI Researcher | Creator of Harmonic Resonance Fields**
+**ECE 2026 | Physics-Informed AI Researcher | Creator of Harmonic Resonance Fields**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devanik-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/devanik/)
 [![Twitter](https://img.shields.io/badge/Twitter-@devanik2005-1DA1F2?style=flat&logo=twitter)](https://x.com/devanik2005)
