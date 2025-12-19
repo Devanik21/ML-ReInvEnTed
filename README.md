@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Research Breakthrough
+##  Research Breakthrough
 
 I developed **Harmonic Resonance Fields (HRF)**, a novel physics-informed machine learning algorithm that achieved **98.84% accuracy** on the EEG Eye State Corpus (OpenML ID: 1471), surpassing all industry-standard models including Random Forest, XGBoost, and Extra Trees.
 
@@ -20,7 +20,7 @@ I developed **Harmonic Resonance Fields (HRF)**, a novel physics-informed machin
 
 ---
 
-## 🏆 Performance Benchmark: HRF v15.0 vs Industry Standards
+##  Performance Benchmark: HRF v15.0 vs Industry Standards
 
 **Dataset:** EEG Eye State Corpus (OpenML 1471)  
 **Test Size:** 2,996 samples  
