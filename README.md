@@ -388,7 +388,8 @@ I validated HRF across diverse datasets to prove generalization:
 
 ---
 
-<img width="1190" height="690" alt="download" src="https://github.com/user-attachments/assets/5c883b40-01af-4a83-ac91-a1e069b80add" />
+
+<img width="1190" height="690" alt="download" src="https://github.com/user-attachments/assets/cd3839fa-13d4-401b-80bc-2f4ee06c4b3c" />
 
 
 ---
