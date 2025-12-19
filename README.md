@@ -364,11 +364,19 @@ I validated HRF across diverse datasets to prove generalization:
 
 ---
 
+<img width="1190" height="690" alt="download" src="https://github.com/user-attachments/assets/5c883b40-01af-4a83-ac91-a1e069b80add" />
+
+
+---
+
 ## 🛠️ Development Environment
 
 **Hardware:** Standard consumer laptop + NVIDIA GPU Support
+
 **Software:** Python 3.11, NVIDIA RAPIDS (cuML), CuPy, scikit-learn
+
 **Methodology:** 5-Fold Stratified Cross-Validation
+
 **Team Size:** 1 (independent research)
 
 ---
