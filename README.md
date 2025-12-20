@@ -92,13 +92,6 @@ The **Classification Report** reveals a near-identical precision/recall profile 
 ## 🔬 Core Innovation: Phase-Invariant Classification
 
 Traditional machine learning models struggle with **temporal jitter** (random time shifts in signals). HRF solves this through resonance-based energy detection.
-
----
-
-<img width="817" height="724" alt="download" src="https://github.com/user-attachments/assets/c1012c44-65af-4f3f-ac23-e112a601f78b" />
-
----
-
 **Scientific Explanation:** HRF measures the *frequency energy* of signals rather than temporal feature positions. Just as a pendulum resonates regardless of when you start pushing it (as long as the frequency matches), HRF detects the "Alpha Wave" pattern regardless of phase shifts.
 
 ### The Problem: Phase Jitter Stress Test
@@ -174,7 +167,10 @@ I generated synthetic EEG data with increasing phase jitter (0.0 to 3.0 standard
 
 ---
 
+<img width="817" height="724" alt="download" src="https://github.com/user-attachments/assets/5d50c3c3-986d-4c12-93a5-ab8385014019" />
 
+---
+**Scientific Explanation:** HRF measures the *frequency energy* of signals rather than temporal feature positions, making it inherently invariant to phase shifts—a fundamental limitation of decision tree-based models.
 
 ### Conclusion and Implications
 
@@ -362,12 +358,10 @@ Based on the **98.84%** peak accuracy and the v15.0 confusion matrix analysis:
 
 ### Core Mathematical Framework
 
-HRF models each training point as a damped harmonic oscillator generating class-specific wave potentials. Unlike static decision trees, this creates a dynamic energy field.
+HRF models each training point as a damped harmonic oscillator generating class-specific wave potentials:
 
-
-
-```math
-Ψ(x, p_i) = e^{-\gamma||x - p_i||^2} \cdot \cos(\omega_c \cdot ||x - p_i|| + \phi)
+```
+Ψ(x, pᵢ) = exp(-γ||x - pᵢ||²) · cos(ωc · ||x - pᵢ|| + φ)
 ```
 
 Where:
@@ -442,6 +436,12 @@ I validated HRF across diverse datasets to prove generalization, culminating in 
 - **Benchmark Code:** Reproducible experiments on OpenML 1471
 - **Tutorial Notebooks:** Step-by-step implementation guides
 
+# Evaluating Test Accuracy: A Brief Comparison Using the OpenML EEG Global Dataset
+
+<img width="989" height="490" alt="download" src="https://github.com/user-attachments/assets/a1b51039-ef43-4509-a371-053df007a7d2" />
+
+
+<img width="1190" height="690" alt="download" src="https://github.com/user-attachments/assets/cd3839fa-13d4-401b-80bc-2f4ee06c4b3c" />
 
 
 ---
