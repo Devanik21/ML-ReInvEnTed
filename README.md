@@ -221,9 +221,8 @@ To prove stability, HRF v15.0 was subjected to a **5-Fold Stratified Cross-Valid
 > **Clinical Reliability:** The model exhibits zero class-bias with a Precision/Recall profile of **0.99/0.98** for the 'Eye Closed' state, making it highly reliable for medical diagnostics.
 
 
-# Algorithm Evolution Timeline
 
-**Decision boundary evolution**
+# Decision boundary evolution
 
 <img width="1989" height="489" alt="download" src="https://github.com/user-attachments/assets/e2fcd24a-3a68-4a1c-b277-e12610350011" />
 
