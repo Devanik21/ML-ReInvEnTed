@@ -74,7 +74,11 @@ $$\mathbf{X}_{\text{freq}} = |\text{FFT}(\mathbf{x}_{\text{raw}})|$$
 
 Grid search over physics-informed parameter space:
 
-$\(\omega_0^{*}, \gamma^{*}, k^{*}) = \arg\max_{(\omega_0, \gamma, k) \in \mathcal{G}} \mathrm{Acc_{val}}(\omega_0, \gamma, k)$
+```math
+(\omega_0^{*}, \gamma^{*}, k^{*}) = \arg\max_{(\omega_0, \gamma, k) \in \mathcal{G}} \text{Acc}_{\text{val}}(\omega_0, \gamma, k)
+```
+
+
 
 where $\mathcal{G}$ includes neurophysiologically meaningful frequencies:
 - **Delta**: 1 Hz (deep sleep)
@@ -104,15 +108,12 @@ with $M = 100$ estimators, `max_features=1.0` (full holography).
 
 ---
 
-## Empirical Validation
+## Empirical Validation(5-Fold Stratified Cross-Validated)
 
 **Dataset**: EEG Eye State Corpus (OpenML 1471)  
 **Samples**: 14,980 real-world recordings  
-**5-Fold Stratified Cross-Validation**:
-
-$$\text{Acc}_{\text{mean}} = 98.12\% \quad (\sigma = \pm 0.18\%)$$
-
 **Test Performance**: 98.53% accuracy
+
 
 **Benchmarks** (test set):
 - Extra Trees: 94.49% (Δ = +4.04%)
