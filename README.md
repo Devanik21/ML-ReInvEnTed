@@ -280,16 +280,6 @@ The model achieved near-perfect classification with minimal false positives and 
 
 
 ---
-
-###  Medical Validation: Clinical Precision (v15.0)
-
-The v15.0 Ultimate exhibits near-perfect class separation, as evidenced by the high-density diagonal in the resonance-based confusion matrix.
-
-**Confusion Matrix Analysis: HRF v15.0 Ultimate**
-
----
-
----
 ##  Future Horizon: HRF v16.0 [Experimental Beta]
 
 While **v15.0** remains the official stable benchmark for this project due to its superior clinical reliability, internal R&D has successfully birthed **v16.0**.
@@ -341,6 +331,14 @@ Fold 5 Accuracy: 98.3311%
    Rank 3: 98.7952%
 ============================================================
 ```
+---
+
+###  Medical Validation: Clinical Precision (v15.0)
+
+The v15.0 Ultimate exhibits near-perfect class separation, as evidenced by the high-density diagonal in the resonance-based confusion matrix.
+
+**Confusion Matrix Analysis: HRF v15.0 Ultimate**
+
 ---
 
 ### 🏥 Clinical Significance
