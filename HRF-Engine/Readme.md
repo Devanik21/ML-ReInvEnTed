@@ -251,7 +251,7 @@ The following high-dimensional datasets were included in the codebase but commen
 
 # 🌌 The Harmonic Resonance Forest: A 26-Dimensional Classification Architecture
 
-**Inventor:** Nik (Electronics & Communication Engineering Student)  
+**Inventor:** Devanik (Electronics & Communication Engineering Student)  
 **Architecture Version:** Titan-21 (26D Sophisticated Dimensionality)  
 **Philosophy:** Nature + Biology + Physics + Standard Machine Learning
 
